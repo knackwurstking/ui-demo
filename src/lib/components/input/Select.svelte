@@ -20,5 +20,6 @@
         items={listItems}
         selected={listItems[0] || null}
         alwaysOpen={false}
+        on:change={() => console.debug("search:change")}
     />
 </UI.Text.Label>

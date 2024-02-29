@@ -13,11 +13,15 @@
         <h1>Input Elements</h1>
 
         <section>
-            <Input.Slider />
+            <Input.Search />
         </section>
 
         <section>
             <Input.Select />
+        </section>
+
+        <section>
+            <Input.Slider />
         </section>
     </article>
 </main>
