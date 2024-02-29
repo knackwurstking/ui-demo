@@ -2,6 +2,8 @@
     import "ui/main.min.css";
 
     import { UI } from "ui";
+
+    import * as Input from "./lib/components/input";
 </script>
 
 <UI.Theme.Root auto />
@@ -11,18 +13,7 @@
         <h1>Input Elements</h1>
 
         <section>
-            <UI.Text.Label
-                primary="Input Slider"
-                secondary="UI.Input.Slider min={0} max={100} value={50}"
-                row
-            >
-                <UI.Input.Slider
-                    style="width: 50%;"
-                    min={0}
-                    max={100}
-                    value={50}
-                />
-            </UI.Text.Label>
+            <Input.Slider />
         </section>
     </article>
 </main>
