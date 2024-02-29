@@ -13,6 +13,18 @@
         <h1>Input Elements</h1>
 
         <section>
+            <Input.Date />
+        </section>
+
+        <section>
+            <Input.HTMLSelect />
+        </section>
+
+        <section>
+            <Input.Month />
+        </section>
+
+        <section>
             <Input.Number />
         </section>
 

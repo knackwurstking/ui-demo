@@ -1,3 +1,6 @@
+export { default as Date } from "./Date.svelte"
+export { default as HTMLSelect } from "./HTMLSelect.svelte"
+export { default as Month } from "./Month.svelte"
 export { default as Number } from "./Number.svelte"
 export { default as Search } from "./Search.svelte"
 export { default as Select } from "./Select.svelte"
