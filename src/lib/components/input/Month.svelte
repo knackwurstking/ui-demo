@@ -5,5 +5,9 @@
 </script>
 
 <UI.Text.Label primary="Month" secondary="UI.Input.Month ..." row>
-    <UI.Input.Month title="pick a month" />
+    <UI.Input.Month
+        title="pick a month"
+        on:change={() => console.debug("month:change")}
+        on:input={() => console.debug("month:input")}
+    />
 </UI.Text.Label>
