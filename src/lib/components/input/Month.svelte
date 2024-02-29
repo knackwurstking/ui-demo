@@ -4,5 +4,6 @@
     import { UI } from "ui";
 </script>
 
-<UI.Text.Label primary="Month" secondary="UI.Input.Month ..." row
-></UI.Text.Label>
+<UI.Text.Label primary="Month" secondary="UI.Input.Month ..." row>
+    <UI.Input.Month title="pick a month" />
+</UI.Text.Label>
