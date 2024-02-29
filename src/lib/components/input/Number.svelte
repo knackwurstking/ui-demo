@@ -5,5 +5,5 @@
 </script>
 
 <UI.Text.Label primary="Number" secondary="UI.Input.Number ..." row>
-    <UI.Input.Text title="Alias" value="knackwurstking" />
+    <UI.Input.Number title="Age" min={0} max={150} />
 </UI.Text.Label>

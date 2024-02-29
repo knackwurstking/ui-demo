@@ -13,6 +13,10 @@
         <h1>Input Elements</h1>
 
         <section>
+            <Input.Number />
+        </section>
+
+        <section>
             <Input.Search />
         </section>
 
