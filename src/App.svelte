@@ -15,6 +15,10 @@
         <section>
             <Input.Slider />
         </section>
+
+        <section>
+            <Input.Select />
+        </section>
     </article>
 </main>
 

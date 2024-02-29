@@ -5,7 +5,7 @@
 </script>
 
 <UI.Text.Label
-    primary="Input Slider"
+    primary="Slider"
     secondary="UI.Input.Slider min={0} max={100} value={50}"
     row
 >
