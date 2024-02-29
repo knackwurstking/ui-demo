@@ -23,6 +23,10 @@
         <section>
             <Input.Slider />
         </section>
+
+        <section>
+            <Input.Text />
+        </section>
     </article>
 </main>
 
