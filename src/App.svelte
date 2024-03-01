@@ -5,6 +5,7 @@
     import Spinner from "./lib/components/Spinner.svelte";
     import * as Text from "./lib/components/text";
     import ThemePicker from "./lib/components/ThemePicker.svelte";
+    import TopAppBar from "./lib/components/TopAppBar.svelte";
 </script>
 
 <UI.Theme.Root auto />
@@ -143,7 +144,7 @@
         <h1>(Top) App Bar</h1>
 
         <section>
-            <!-- TODO: ... -->
+            <TopAppBar />
         </section>
     </article>
 </main>
