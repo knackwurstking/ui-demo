@@ -1,7 +1,4 @@
 <script>
-    // TODO: ...
-    import "ui/main.min.css";
-
     import { UI } from "ui";
 </script>
 

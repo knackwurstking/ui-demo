@@ -1,6 +1,4 @@
 <script>
-    import "ui/main.min.css";
-
     import { UI } from "ui";
 
     /**

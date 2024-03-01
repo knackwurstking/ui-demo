@@ -16,7 +16,7 @@
 </script>
 
 <UI.Dialog.Root bind:this={dialog} {fullscreen}>
-    <UI.Dialog.Header title="Root Dialog" on:close={() => close()} />
+    <UI.Dialog.Header title="Dialog Example" on:close={() => close()} />
 
     <section>
         <UI.Text.Primary>Content here ....</UI.Text.Primary>
@@ -25,7 +25,7 @@
     <UI.Dialog.Footer>
         <UI.Button.Root
             variant="full"
-            color="destructive"
+            color="secondary"
             on:click={() => {
                 dialog.close();
             }}>Cancel</UI.Button.Root

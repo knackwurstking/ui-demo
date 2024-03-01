@@ -1,6 +1,7 @@
 <script>
     import { UI } from "ui";
 
+    import Buttons from "./lib/components/Buttons.svelte";
     import Card from "./lib/components/Card.svelte";
     import Dialog from "./lib/components/Dialog.svelte";
     import Drawer from "./lib/components/Drawer.svelte";
@@ -21,7 +22,7 @@
         <h1>Buttons</h1>
 
         <section>
-            <!-- TODO: ... -->
+            <Buttons />
         </section>
 
         <hr />
