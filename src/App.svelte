@@ -4,29 +4,60 @@
     import { UI } from "ui";
 
     import * as Input from "./lib/components/input";
+    import Spinner from "./lib/components/Spinner.svelte";
 </script>
 
 <UI.Theme.Root auto />
 
 <main class="is-max ui-container flex column align-center">
-    <article>
+    <article class="is-max-width">
         <h1>Buttons</h1>
+
+        <section>
+            <!-- TODO: ... -->
+        </section>
+
+        <hr />
     </article>
 
-    <article>
+    <article class="is-max-width">
         <h1>Card</h1>
+
+        <section>
+            <!-- TODO: ... -->
+        </section>
+
+        <hr />
     </article>
 
-    <article>
+    <article class="is-max-width">
         <h1>Dialog</h1>
+
+        <section>
+            <!-- TODO: ... -->
+        </section>
+
+        <hr />
     </article>
 
-    <article>
+    <article class="is-max-width">
         <h1>Drawer</h1>
+
+        <section>
+            <!-- TODO: ... -->
+        </section>
+
+        <hr />
     </article>
 
-    <article>
+    <article class="is-max-width">
         <h1>Flex Grid</h1>
+
+        <section>
+            <!-- TODO: ... -->
+        </section>
+
+        <hr />
     </article>
 
     <article class="is-max-width">
@@ -63,22 +94,49 @@
         <section>
             <Input.Text />
         </section>
+
+        <hr />
     </article>
 
-    <article>
+    <article class="is-max-width">
         <h1>Spinner</h1>
+
+        <section
+            class="flex align-center justify-center"
+            style="position: relative; height: 5em; overflow: hidden;"
+        >
+            <Spinner />
+        </section>
+
+        <hr />
     </article>
 
-    <article>
+    <article class="is-max-width">
         <h1>Text Components</h1>
+
+        <section>
+            <!-- TODO: ... -->
+        </section>
+
+        <hr />
     </article>
 
-    <article>
+    <article class="is-max-width">
         <h1>Theme Picker</h1>
+
+        <section>
+            <!-- TODO: ... -->
+        </section>
+
+        <hr />
     </article>
 
-    <article>
+    <article class="is-max-width">
         <h1>(Top) App Bar</h1>
+
+        <section>
+            <!-- TODO: ... -->
+        </section>
     </article>
 </main>
 
