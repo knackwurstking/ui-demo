@@ -4,6 +4,7 @@
     import * as Input from "./lib/components/input";
     import Spinner from "./lib/components/Spinner.svelte";
     import * as Text from "./lib/components/text";
+    import ThemePicker from "./lib/components/ThemePicker.svelte";
 </script>
 
 <UI.Theme.Root auto />
@@ -132,7 +133,7 @@
         <h1>Theme Picker</h1>
 
         <section>
-            <!-- TODO: ... -->
+            <ThemePicker />
         </section>
 
         <hr />
