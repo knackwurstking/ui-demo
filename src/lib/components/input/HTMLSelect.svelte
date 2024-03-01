@@ -15,7 +15,7 @@
     ];
 </script>
 
-<UI.Text.Label primary="HTMLSelect" secondary="UI.Input.HTMLSelect ..." row>
+<UI.Text.Label primary="HTMLSelect" secondary="UI.Input.HTMLSelect ...">
     <UI.Input.HTMLSelect
         items={listItems}
         selected={listItems[0] || null}

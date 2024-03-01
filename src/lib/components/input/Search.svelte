@@ -4,7 +4,7 @@
     import { UI } from "ui";
 </script>
 
-<UI.Text.Label primary="Search" secondary="UI.Input.Search ..." row>
+<UI.Text.Label primary="Search" secondary="UI.Input.Search ...">
     <UI.Input.Search
         title="Search for some stuff here"
         placeholder="Search..."

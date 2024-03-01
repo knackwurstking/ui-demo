@@ -4,7 +4,7 @@
     import { UI } from "ui";
 </script>
 
-<UI.Text.Label primary="Number" secondary="UI.Input.Number ..." row>
+<UI.Text.Label primary="Number" secondary="UI.Input.Number ...">
     <UI.Input.Number
         title="Age"
         min={0}

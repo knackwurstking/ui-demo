@@ -7,7 +7,6 @@
 <UI.Text.Label
     primary="Slider"
     secondary="UI.Input.Slider min={0} max={100} value={50}"
-    row
 >
     <UI.Input.Slider
         style="width: 50%;"
