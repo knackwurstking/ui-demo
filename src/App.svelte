@@ -1,6 +1,7 @@
 <script>
     import { UI } from "ui";
 
+    import Dialog from "./lib/components/Dialog.svelte";
     import Drawer from "./lib/components/Drawer.svelte";
     import FlexGrid from "./lib/components/FlexGrid.svelte";
     import * as Input from "./lib/components/input";
@@ -39,7 +40,7 @@
         <h1>Dialog</h1>
 
         <section>
-            <!-- TODO: ... -->
+            <Dialog />
         </section>
 
         <hr />
