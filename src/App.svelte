@@ -5,6 +5,7 @@
 
     import * as Input from "./lib/components/input";
     import Spinner from "./lib/components/Spinner.svelte";
+    import * as Text from "./lib/components/text";
 </script>
 
 <UI.Theme.Root auto />
@@ -115,7 +116,7 @@
         <h1>Text Components</h1>
 
         <section>
-            <!-- TODO: ... -->
+            <Text.Label />
         </section>
 
         <hr />
