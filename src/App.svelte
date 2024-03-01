@@ -1,6 +1,7 @@
 <script>
     import { UI } from "ui";
 
+    import FlexGrid from "./lib/components/FlexGrid.svelte";
     import * as Input from "./lib/components/input";
     import Spinner from "./lib/components/Spinner.svelte";
     import * as Text from "./lib/components/text";
@@ -55,7 +56,7 @@
         <h1>Flex Grid</h1>
 
         <section>
-            <!-- TODO: ... -->
+            <FlexGrid />
         </section>
 
         <hr />
