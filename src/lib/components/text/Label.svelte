@@ -8,7 +8,6 @@
     secondary="With some secondary text"
     useLabel
     useRipple
-    row
 >
     <input type="checkbox" />
 </UI.Text.Label>
