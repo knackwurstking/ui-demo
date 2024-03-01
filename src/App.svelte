@@ -117,6 +117,14 @@
             <Text.Label />
         </section>
 
+        <section>
+            <Text.Primary />
+        </section>
+
+        <section>
+            <Text.Secondary />
+        </section>
+
         <hr />
     </article>
 
