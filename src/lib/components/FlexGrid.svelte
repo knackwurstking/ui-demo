@@ -3,7 +3,7 @@
 </script>
 
 <UI.FlexGrid.Root class="has-border" style="padding: 0.5em;" gap=".25em">
-    <UI.FlexGrid.Row style="height: 5em;">
+    <UI.FlexGrid.Row style="height: 5em;" gap="1em">
         <UI.FlexGrid.Col class="has-border flex align-center justify-center">
             R1C1
         </UI.FlexGrid.Col>
