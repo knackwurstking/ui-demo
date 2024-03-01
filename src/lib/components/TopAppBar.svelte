@@ -1,6 +1,4 @@
 <script>
-    import { onMount } from "svelte";
-
     import BackIcon from "svelte-material-icons/ArrowLeft.svelte";
     import SaveIcon from "svelte-material-icons/ContentSave.svelte";
 
