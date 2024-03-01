@@ -11,6 +11,7 @@
 </script>
 
 <UI.Button.Root
+    color="secondary"
     on:click={() => {
         fullscreen = false;
         dialog.open();
@@ -33,6 +34,7 @@
 <br />
 
 <UI.Button.Root
+    color="secondary"
     on:click={() => {
         fullscreen = true;
         dialog.open();

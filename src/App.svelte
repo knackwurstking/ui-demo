@@ -1,6 +1,7 @@
 <script>
     import { UI } from "ui";
 
+    import Card from "./lib/components/Card.svelte";
     import Dialog from "./lib/components/Dialog.svelte";
     import Drawer from "./lib/components/Drawer.svelte";
     import FlexGrid from "./lib/components/FlexGrid.svelte";
@@ -30,7 +31,7 @@
         <h1>Card</h1>
 
         <section>
-            <!-- TODO: ... -->
+            <Card />
         </section>
 
         <hr />
