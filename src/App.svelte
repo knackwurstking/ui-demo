@@ -1,12 +1,15 @@
 <script>
     import { UI } from "ui";
 
+    import Drawer from "./lib/components/Drawer.svelte";
     import FlexGrid from "./lib/components/FlexGrid.svelte";
     import * as Input from "./lib/components/input";
     import Spinner from "./lib/components/Spinner.svelte";
     import * as Text from "./lib/components/text";
     import ThemePicker from "./lib/components/ThemePicker.svelte";
     import TopAppBar from "./lib/components/TopAppBar.svelte";
+
+    let drawerOpen = false;
 </script>
 
 <UI.Theme.Root auto />
@@ -46,7 +49,13 @@
         <h1>Drawer</h1>
 
         <section>
-            <!-- TODO: ... -->
+            <UI.Button.Root
+                on:click={() => {
+                    drawerOpen = true;
+                }}
+            >
+                Open Drawer
+            </UI.Button.Root>
         </section>
 
         <hr />
@@ -148,6 +157,8 @@
             <TopAppBar />
         </section>
     </article>
+
+    <Drawer bind:open={drawerOpen} />
 </main>
 
 <style>
