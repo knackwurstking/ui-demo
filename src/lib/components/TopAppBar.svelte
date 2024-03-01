@@ -1,4 +1,6 @@
 <script>
+    import { onMount } from "svelte";
+
     import BackIcon from "svelte-material-icons/ArrowLeft.svelte";
     import SaveIcon from "svelte-material-icons/ContentSave.svelte";
 
@@ -8,7 +10,6 @@
 <div
     style="position: relative; height:10em; border-bottom: none;"
     class="is-max-width has-border"
-    data-theme="light"
 >
     <UI.TopAppBar.Root>
         <svelte:fragment slot="left">
